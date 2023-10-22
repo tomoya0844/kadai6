@@ -4,13 +4,14 @@ public class Greet {
     private final String country;
     private final String greet;
     private final String foodCulture;
-    private final String url;
+    private final String recipe;
 
-    public Greet(String country, String greet, String foodCulture, String url) {
+
+    public Greet(String country, String greet, String foodCulture, String recipe) {
         this.country = country;
         this.greet = greet;
         this.foodCulture = foodCulture;
-        this.url = url;
+        this.recipe = recipe;
     }
 
 
@@ -26,8 +27,8 @@ public class Greet {
         return foodCulture;
     }
 
-    public String getUrl() {
-        return url;
+    public String getRecipe() {
+        return recipe;
     }
 }
 
